@@ -1,13 +1,10 @@
 # curtain-battle
 
-# すべてのサービスを起動
-make up
+### 実行方法
+`make up ` # すべてのサービスの起動
 
-# 開発用コンテナに入る
-make shell
+`make shell` # 起動している開発用コンテナに入る
 
-# 開発用コンテナの上でDjangoサーバを起動
-make server
+`make server` # 開発用コンテナの上でWebサーバを起動
 
-# すべてのサービスを停止
-make down
+`make down` # すべてのサービスの停止
